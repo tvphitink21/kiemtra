@@ -1,0 +1,160 @@
+<html>
+	<head>
+		<title>Bài kiểm tra</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+
+.namgiua {
+	width: 1207;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menu {
+	background-color: #444444;
+}
+
+.menu ul {
+	list-style: none;
+	padding: 0 15px;
+}
+
+.menu ul li {
+	position: relative;
+}
+
+.menu ul li a {
+	color: #EDEDED;
+	text-decoration: none;
+}
+
+.menu > ul > li {
+	display: inline-block;
+}
+
+.menu > ul > li > a {
+	display: block;
+	line-height: 40px;
+	padding: 0 15px;
+}
+
+.menu ul ul {
+	width: 150px;
+	position: absolute;
+	visibility: hidden;
+}
+
+.menu ul ul li {
+	line-height: 40px;
+	background: #777777;
+	padding: 0 15px;
+	left: -15px;
+}
+
+.menu ul ul li:hover {
+	background: #121212;
+}
+
+.menu ul li:hover > ul {
+	visibility: visible;
+	top: 100%;
+}
+
+.menu ul ul ul {
+	top: 0 !important;
+	left: 100%;
+}
+
+.slideshow{
+	width: 1207px;
+	height: 400px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.duongvien {
+	width: 3621px;
+	-webkit-animation: slide 12s ease infinite;
+}
+
+.slide {
+	float: left;
+	width: 1207px;
+	height: 400px;
+	display: flex;
+}
+
+@-webkit-keyframes slide {
+	33% {margin-left: 0px;}
+	66% {margin-left: -1207px;}
+	99% {margin-left: -2414px;}
+}
+
+</style>
+	</head>
+	<body>
+	<table border="100" class="namgiua" width="1207">
+	<tr>
+		<td colspan="2"><img src="banner.png"></td>
+		</tr>
+		<tr>
+		<td colspan="2" bgcolor="#444444" align="center">
+		<div class="menu">
+			<ul>
+				<li><a href="#">Trang chủ</a></li>
+				<li><a href="#">Laptop</a></li>
+				<li><a href="#">Phụ kiện</a></li>
+				<li><a href="#">Điện thoại</a>
+					<ul>
+						<li><a href="#">Apple</a></li>
+						<li><a href="#">Samsung</a>
+					<ul>
+						<li><a href="#">S21 5G</a></li>
+						<li><a href="#">Z Flip 3</a></li>
+						<li><a href="#">Galaxy A33</a></li>
+					</ul>
+				</li></li>
+						<li><a href="#">Vivo</a>
+					<ul>
+					
+					</ul>
+				</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		</td>
+		</tr>
+		<tr align="center">
+			<td colspan="2" >
+			<div class="slideshow">
+			<div class="duongvien">
+				<div class="slide"><img src="anh1.jpg" width="1207" ></div>
+				<div class="slide"><img src="anh2.jpg" width="1207"></div>
+				<div class="slide"><img src="anh3.jpg" width="1207"></div>
+			</div>
+			</div>
+		</td>
+		</tr>
+		<tr>
+			<td rowspan="2" valign="top">
+			<FORM NAME="DANGKY" METHOD="POST">
+			<center><H1>ĐĂNG KÝ MUA IPHONE 14</H1></center>
+				Họ tên:&emsp;&nbsp;		<input type="text" name="ht" placeholder="Điền họ và tên" size="16" ><br>
+				Số CCCD: 	<input type="text" name="cccd" placeholder="Điền CCCD" size="12" ><br>
+				Loại:&emsp;&ensp;&nbsp;	<input type="radio" name="loai" value="256" checked > 256GB 
+							<input type="radio" name="loai" value="512" > 512GB <br>
+				Lựa chọn:	<input type="checkbox" name="gph" value="gh"> Giao hàng 
+							<input type="checkbox" name="gph" value="pk"> Phụ kiện 
+							<input type="checkbox" name="gph" value="hd"> Hóa đơn <br>
+							<input type="button" value="Đặt hàng" name="save">
+		</FORM>
+		</td><td align="center"><img src="iphone1.png"</td>
+		</tr>
+		<tr>
+			<td align="center"><img src="iphone2.jpg"></td>
+		</tr>
+		</table>
+	</body>
+</html>
